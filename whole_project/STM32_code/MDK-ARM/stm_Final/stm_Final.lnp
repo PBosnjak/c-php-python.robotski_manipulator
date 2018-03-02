@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"stm_final\stm32f1xx_it.o"
+"stm_final\stm32f1xx_hal_msp.o"
+"stm_final\main.o"
+"stm_final\stm32f1xx_hal_dma.o"
+"stm_final\stm32f1xx_hal_tim_ex.o"
+"stm_final\stm32f1xx_hal_gpio_ex.o"
+"stm_final\stm32f1xx_hal_tim.o"
+"stm_final\stm32f1xx_hal_cortex.o"
+"stm_final\stm32f1xx_hal_rcc_ex.o"
+"stm_final\stm32f1xx_hal_flash_ex.o"
+"stm_final\stm32f1xx_hal_gpio.o"
+"stm_final\stm32f1xx_hal_uart.o"
+"stm_final\stm32f1xx_hal_flash.o"
+"stm_final\stm32f1xx_hal_pwr.o"
+"stm_final\stm32f1xx_hal.o"
+"stm_final\stm32f1xx_hal_rcc.o"
+"stm_final\startup_stm32f103xb.o"
+"stm_final\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "stm_Final\stm_Final.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stm_Final.map" -o stm_Final\stm_Final.axf
