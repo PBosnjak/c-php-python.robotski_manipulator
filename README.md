@@ -1,3 +1,3 @@
-#Projektni zadatak iz kolegija Ugradbeni sustavi.<br><br>
+# Projektni zadatak iz kolegija Ugradbeni sustavi.<br><br>
 Projektni zadatak bio je sastaviti robotski manipulator, izraditi grafičko sučelje pomoću kojeg se uporabom kliznika postavlja otvorenost motora te pomoću vrijednosti odabranih unutar grafičkog sučelja upravljati robotskim manipulatorom.
 Za izradu projekta potrebno je znanje C programskog jezika koji je korišten u izradi programa za STM, Python programskog jezika koji je korišten prilikom slanja otvorenosti motora na STM, te je potrebno znanje PHP programskog jezika koji je korišten za izradu WEB sučelja. Također je potrebno znati način rada serijske asinkrone komunikacije (engl. UART), način rada pulsno-širinske modulacije (engl. PWM) i digitalne elektronike.
